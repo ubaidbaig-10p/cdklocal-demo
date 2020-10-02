@@ -15,9 +15,9 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app. The build ste
 
 ## Pre-Req
 
--- aws cli
--- localstack -> pip install localstack
--- locakstack-cdk -> npm install aws-cdk-local
+- aws cli
+- localstack -> pip install localstack
+- locakstack-cdk -> npm install aws-cdk-local
 
 ## Commands
 - `cdklocal deploy`
