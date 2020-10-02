@@ -1,4 +1,4 @@
-# Welcome to your CDK JavaScript project!
+# CDK Local Javascript Project
 
 You should explore the contents of this project. It demonstrates a CDK app with an instance of a stack (`TestStack`)
 which contains an Amazon SQS queue that is subscribed to an Amazon SNS topic.
