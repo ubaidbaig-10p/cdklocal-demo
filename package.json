@@ -10,14 +10,14 @@
     "test": "jest"
   },
   "devDependencies": {
-    "@aws-cdk/assert": "1.64.1-dev1",
-    "aws-cdk": "1.64.1-dev1",
+    "@aws-cdk/assert": "1.64.1",
+    "aws-cdk": "1.64.1",
     "jest": "^26.4.2"
   },
   "dependencies": {
-    "@aws-cdk/aws-sns": "1.64.1-dev1",
-    "@aws-cdk/aws-sns-subscriptions": "1.64.1-dev1",
-    "@aws-cdk/aws-sqs": "1.64.1-dev1",
-    "@aws-cdk/core": "1.64.1-dev1"
+    "@aws-cdk/aws-sns": "1.64.1",
+    "@aws-cdk/aws-sns-subscriptions": "1.64.1",
+    "@aws-cdk/aws-sqs": "1.64.1",
+    "@aws-cdk/core": "1.64.1"
   }
 }
