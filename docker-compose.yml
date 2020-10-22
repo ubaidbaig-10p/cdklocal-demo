@@ -1,0 +1,19 @@
+version: "3.7"
+services:
+  localstack:
+    image: localstack/localstack
+    ports:
+      - "4566:4566"
+    environment:
+      - SERVICES=cloudformation,ec2,iam,lambda,rds,s3,secretsmanager,sqs,sns,sts,apigateway
+      - DEBUG=${DEBUG-True}
+      - DATA_DIR=/tmp/localstack/data
+      - LAMBDA_EXECUTOR=${LAMBDA_EXECUTOR-docker-reuse}
+      - DOCKER_HOST=unix:///var/run/docker.sock
+      - DEFAULT_REGION=us-east-1
+    volumes:
+      - "./build/localstack:/tmp/localstack"
+      - "/var/run/docker.sock:/var/run/docker.sock"
+
+networks:
+  localstack:
